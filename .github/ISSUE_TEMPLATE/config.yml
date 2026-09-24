@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and setup help
+    url: https://discord.gg/zG5YMVtmtp
+    about: Ask on Discord how to do something in kigu. Bugs go in an issue.
+  - name: Download kigu on itch.io
+    url: https://checksumstudio.itch.io/kigu
+    about: The same installer as on the Releases page.

@@ -1,0 +1,52 @@
+name: Bug report
+description: Something in kigu doesn't work the way it should.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: dropdown
+    id: crashed
+    attributes:
+      label: Did kigu crash?
+      options:
+        - "No"
+        - "Yes, it closed or showed 'kigu crashed'"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Share a ticket
+        2. Partner joins
+        3. ...
+  - type: input
+    id: version
+    attributes:
+      label: kigu version
+      description: Shown in About.
+    validations:
+      required: true
+  - type: input
+    id: setup
+    attributes:
+      label: Windows version, GPU and VTuber app
+      placeholder: Windows 11 24H2, RTX 3070 (driver 591.86), VSeeFace
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics
+      description: In kigu, Help > Copy diagnostics, then drag the zip here. Names, addresses and paths are removed.
+  - type: checkboxes
+    id: searched
+    attributes:
+      label: Before posting
+      options:
+        - label: I searched the open issues and this isn't one of them.
+          required: true
