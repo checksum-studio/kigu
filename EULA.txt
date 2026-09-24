@@ -1,0 +1,149 @@
+kigu End User License Agreement
+Version 1, effective 2026-09-25
+
+This agreement is between you and checksum.studio, the independent developer of kigu ("we", "us"). It covers
+kigu, its installer and its updates. You accept it by selecting "I accept" when kigu asks you to. If you do not
+agree, do not install or use kigu.
+
+If you use kigu as a consumer, nothing in this agreement takes away rights you have under the laws of the country
+or state where you live that cannot be waived by contract. Section 17 explains how this affects the warranty,
+liability and court sections.
+
+1. License. kigu is free of charge. We give you a personal, worldwide, non-exclusive, non-transferable,
+   revocable license to install and use kigu on computers you own or control, for personal or commercial
+   streaming and content creation. You may use kigu in paid, sponsored or monetised streams and videos,
+   and what you make with it is yours to publish. kigu is licensed, not sold, and we keep all rights we do
+   not give you here.
+
+2. Age. You must be at least 13 years old to use kigu, or older if the law where you live requires it.
+   If you are under 18, you need permission from a parent or guardian, who agrees to this agreement for
+   you.
+
+3. What you may not do. You may not:
+   a. sell, rent, lease or sublicense kigu, or charge anyone for access to it;
+   b. share or host copies of kigu or its installer; point people to our official download pages instead;
+   c. modify kigu, or reverse engineer, decompile or disassemble it, except as far as the law allows this
+      despite this limit. For example, EU and UK law let you make a backup copy, observe, study and test how
+      kigu works while using it normally, correct errors, and decompile it where needed to make another
+      program work with it;
+   d. remove or change copyright, license or trademark notices, or claim that you made kigu;
+   e. use kigu to break the law, to harass, threaten or impersonate anyone, or to send malware;
+   f. overload, attack or misuse the relay, lookup or update servers kigu connects to.
+
+4. Your content. You own your streams, avatars and everything else you send through kigu, and we take no
+   license to any of it. You must have the rights to what you send, including any avatar or model you
+   use. Follow the rules of the platforms you stream to, and only show, record or rebroadcast another
+   person's video with their permission.
+
+5. People you connect to. kigu sends video directly between you and the people you connect to. We never
+   receive, see or store it, and we do not screen or moderate it. Anyone you give an invite (ticket) to can
+   ask to join you and, while trying, learns your IP address even if you refuse them. Everyone in a collab
+   connects directly to everyone else, so each member learns the IP address of every other member, including
+   people someone else invited. Anyone you let in sees your display name and can see and record what you send
+   them. You decide whom to invite and let in, and we
+   are not responsible for what other users send or do.
+
+6. What kigu does on your computer. kigu:
+   a. reads the video that your VTuber app shares over Spout on your computer, and shares the composite
+      back over Spout for OBS or other apps;
+   b. asks your router (UPnP, NAT-PMP or PCP) to open a port so partners can reach you directly;
+   c. when installed with the installer, registers kigu:// links for your Windows account so a clicked
+      invite opens kigu (removed when you uninstall);
+   d. keeps its settings, identity key, logs and crash dumps in %APPDATA%\kigu, and its program and update
+      files in %LOCALAPPDATA%\kigu (see sections 7 and 14);
+   e. while error reports are on, runs a second, windowless copy of itself that reports a crash;
+   f. may cause Windows to ask you to allow kigu through the firewall.
+   The kigu window does not contact anything, or start error reports, until you have accepted this agreement.
+
+7. Your privacy. kigu has no accounts, no ads and no analytics. It connects to your partners' computers, to
+   relay and lookup servers run by number 0, Inc. (n0, the makers of iroh), to GitHub for updates, to public DNS
+   resolvers (Cloudflare, Google, Quad9) only if your own DNS fails, to your router to open a port, and, while
+   "Send error reports" is on, to Sentry for error reports. The kigu privacy policy (shown in kigu, and
+   published as PRIVACY.md at https://github.com/checksum-studio/kigu) lists every connection, what each one
+   sees, why, how long data is kept and your rights. The privacy policy is information, not part of this
+   agreement, and may be updated separately.
+
+8. Third-party components and services. kigu includes open-source components. Their licenses are in
+   THIRD_PARTY_LICENSES.html next to kigu.exe and apply to those components instead of this agreement.
+   The relay, lookup, error-reporting and download services kigu uses are run by third parties under their
+   own terms. We do not promise they will always be available, and we may change or stop using them.
+
+9. Updates and security. kigu checks for updates, downloads them in the background and installs them when
+   you restart it or close it. Updates are part of kigu and this agreement applies to them. They may fix
+   problems, add features, or change or remove features, for example to keep kigu secure or working with
+   new versions of Windows, graphics drivers or other software. An update may stop kigu working with older
+   versions of kigu, so everyone in a collab should keep up to date. Security fixes are made only in the
+   latest version; please keep kigu updated. Beyond what the law requires, we are not required to provide
+   updates or support. To report a security problem, use private vulnerability reporting on
+   https://github.com/checksum-studio/kigu (Security tab), or email security@checksum.studio.
+
+10. Feedback. If you send us ideas or suggestions, we may use them without owing you anything.
+
+11. Tips. kigu may ask, rarely, whether you want to tip us on Ko-fi, and itch.io offers an optional
+    donation when you download. Tips are voluntary gifts: they do not unlock features, buy support, or
+    create any other agreement between us. A payment on itch.io is a tip to support development, not a
+    price for kigu; kigu is the same whether or not you pay.
+
+12. No warranty. Subject to section 17, kigu is provided "as is" and "as available", without warranty of
+    any kind, express or implied, including merchantability, fitness for a particular purpose and
+    non-infringement, to the extent the law allows. We do not promise that kigu will work without
+    interruption or errors, or with any particular hardware, VTuber app or streaming software.
+
+13. Limit of liability. Subject to section 17, and to the extent the law allows: we are not liable for
+    any indirect, incidental, special or consequential damages, or for loss of data, profits, income,
+    streams or audience; and our total liability for all claims about kigu is limited to 50 US dollars.
+    Nothing in this agreement limits liability for death or personal injury caused by negligence, for
+    fraud, or for anything else the law does not allow to be limited.
+
+14. Ending this agreement. You may end this agreement at any time by uninstalling kigu. Uninstalling keeps
+    %APPDATA%\kigu; "Remove my data..." in kigu's About page deletes kigu's files there and closes kigu. If you seriously break this agreement
+    (for example section 3), we may end your license by notice, and it ends automatically if the breach
+    cannot be put right. When the license ends you must stop using kigu and delete it. Sections 3 to 5, 10
+    and 12 to 19 continue after it ends.
+
+15. Export and sanctions. kigu uses standard encryption only to secure its connections, and is mass-market
+    encryption software under US export rules (ECCN 5D992.c). You may not use or export kigu where, or by
+    anyone to whom, that is forbidden by United States export control or sanctions laws or those of your
+    own country, and you confirm you are not on a US government restricted-party list.
+
+16. Governing law and courts. This agreement is governed by the laws of the State of Delaware, USA, without
+    regard to conflict-of-law rules. Any dispute goes to the state or federal courts in Delaware, except as
+    section 17 allows. Either of us may use a small claims court instead. There is no arbitration and no
+    class action waiver.
+
+17. Consumers outside Delaware. If you use kigu as a consumer:
+    a. EU, EEA, UK and Switzerland: rights under the law where you live that cannot be waived by contract apply in
+       addition to this agreement (including any rights to updates and to digital content that works as
+       described), and any part of sections 12, 13 and 16 that would take them away does not apply to you.
+       You keep the protection of the mandatory laws of the country where you live, and you may bring claims
+       in its courts. We remain liable for damage we cause on purpose or through gross negligence, and under
+       any product liability law.
+    b. Germany and Austria: because kigu is free, we are liable without limit for intent and gross
+       negligence, for injury to life, body or health, and under product liability law, and not for slight
+       negligence. The 50 US dollar cap in section 13 does not apply to you.
+    c. Australia: kigu may come with guarantees under the Australian Consumer Law that cannot be excluded,
+       and nothing in this agreement excludes, restricts or changes them.
+    d. New Jersey: sections 12 and 13 do not limit rights or remedies you have under New Jersey law.
+
+18. Changes to this agreement. We may change this agreement for a good reason, such as a change in the
+    law, in how kigu works, or in the services it uses. A changed agreement comes with a new version of
+    kigu, which shows it to you and asks you to accept it before you keep using kigu. If you do not
+    accept, kigu will not continue until you do; you may instead stop using kigu and uninstall it, and the
+    version you accepted applies to your use up to that point.
+
+19. General.
+    a. Whole agreement. This agreement is the whole agreement between you and us about kigu.
+    b. Severability. If a court finds part of this agreement unenforceable, that part is limited as little
+       as needed and the rest stays in effect.
+    c. No waiver. If we do not enforce a term right away, we can still enforce it later.
+    d. Transfer. You may not transfer this agreement. We may transfer it to someone who takes over kigu,
+       with notice to you in kigu or on our download page, as long as your rights under it are not reduced.
+    e. No third-party rights. No one other than you and us has rights under this agreement.
+    f. Events outside our control. We are not responsible for delays or failures caused by events outside
+       our reasonable control, such as outages of the relay, lookup or download services.
+    g. Electronic notices. We may give you notices in kigu or on our download page, and accepting in kigu
+       is as valid as a signature.
+    h. Language. If this agreement is translated, the English version applies where the versions differ.
+
+20. Contact. Questions about this agreement or your data: legal@checksum.studio. Security problems: see
+    section 9.
